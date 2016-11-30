@@ -1,0 +1,8 @@
+{
+  "name": "Logout Button",
+  "uuid": "LogOutButton@kyle.aims.ac.za",
+  "description": "Add logout button to the action tray",
+  "shell-version": [
+    "3.22.2"
+  ]
+}
