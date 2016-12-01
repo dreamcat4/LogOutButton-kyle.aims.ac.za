@@ -1,0 +1,4 @@
+<schemalist>
+  <schema id="org.gnome.shell.extensions.logoutbutton" path="/org/gnome/shell/extensions/logoutbutton/">
+  </schema>
+</schemalist>

@@ -1,9 +1,15 @@
+const Gettext = imports.gettext;
+const ExtensionUtils = imports.misc.extensionUtils;
 const Main = imports.ui.main;
-const System = Main.panel.statusArea.aggregateMenu.System;
+const Me = ExtensionUtils.getCurrentExtension();
+const Convenience = Me.imports.convenience;
+const _ = Gettext.gettext;
+const System = Main.panel.statusArea.aggregateMenu._system;
 
 let _logoutButton = null;
 
 function init() {
+    Convenience.initTranslations();
 }
 
 function enable () {

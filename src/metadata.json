@@ -2,6 +2,8 @@
   "name": "Logout Button",
   "uuid": "LogOutButton@kyle.aims.ac.za",
   "description": "Add logout button to the action tray",
+  "gettext-domain": "logoutbutton",
+  "settings-schema": "org.gnome.shell.extensions.logoutbutton",
   "shell-version": [
     "3.22.2"
   ]
