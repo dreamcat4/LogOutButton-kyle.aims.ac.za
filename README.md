@@ -11,8 +11,7 @@ Building LogOutButton from source requires:
 
 ### Install
 
-    mkdir -p ~/.local/share/gnome-shell/extensions/LogOutButton@kyle.aims.ac.za
-    cp -r src/* locale ~/.local/share/gnome-shell/extensions/LogOutButton@kyle.aims.ac.za/
+    ./install.sh
 
 You may need to restart GNOME (Alt + F2, r) before you see LogOutButton in your
 list of extensions
