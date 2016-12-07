@@ -19,7 +19,7 @@ echo 'Compiling preferences...'
 glib-compile-schemas --targetdir=src/schemas src/schemas
 
 echo 'Installing...'
-if [ -z $DEST ]; then
+if [ ! -d $DEST ]; then
     mkdir $DEST
 fi
 cp -r src/* locale $DEST/
