@@ -38,14 +38,14 @@ function init() {
 function enable () {
     _logoutButton = System._createActionButton('application-exit-symbolic', _("Log Out"));
     _logoutButton.connect('button-press-event', _logout);
-    System._actionsItem.actor.add(_logoutButton, { expand: true, x_fill: false });
+    System._actionsItem.actor.add_child(_logoutButton, { expand: true, x_fill: false });
 }
 
 /*
  * Disables the extension
  */
 function disable () {
-    System.actor.remove(_logoutButton);
+    System._actionsItem.actor.remove_child(_logoutButton);
 }
 
 /*
