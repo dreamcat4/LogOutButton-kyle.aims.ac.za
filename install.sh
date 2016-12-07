@@ -15,9 +15,6 @@ for po in locale/*/LC_MESSAGES/*.po; do
     msgfmt -cv -o ${po%.po}.mo $po;
 done
 
-echo 'Compiling preferences...'
-glib-compile-schemas --targetdir=src/schemas src/schemas
-
 echo 'Installing...'
 if [ ! -d $DEST ]; then
     mkdir $DEST
