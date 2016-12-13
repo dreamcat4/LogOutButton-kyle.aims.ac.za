@@ -7,7 +7,7 @@ if [ "$UID" = "0" ]; then
     exit 101
 fi
 
-NAME=Shortcuts\@kyle.aims.ac.za
+NAME=LogOutButton\@kyle.aims.ac.za
 
 function compile-translations {
     echo 'Compiling translations...'
