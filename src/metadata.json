@@ -5,6 +5,6 @@
   "gettext-domain": "logoutbutton",
   "settings-schema": "org.gnome.shell.extensions.logoutbutton",
   "shell-version": [
-    "3.22.2"
+    "3.22"
   ]
 }
