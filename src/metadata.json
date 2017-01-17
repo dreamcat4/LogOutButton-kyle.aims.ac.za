@@ -1,6 +1,7 @@
 {
   "name": "Log Out Button",
   "uuid": "LogOutButton@kyle.aims.ac.za",
+  "url": "https://gitlab.com/paddatrapper/log-out-button-gnome-extension",
   "description": "Add log-out button to the action tray",
   "gettext-domain": "logoutbutton",
   "settings-schema": "org.gnome.shell.extensions.logoutbutton",
